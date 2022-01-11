@@ -40,10 +40,9 @@
     "build": "yarn run build:types && yarn run build:js",
     "build:types": "tsc --emitDeclarationOnly",
     "build:js": "babel src --out-dir dist --extensions \".js,.ts\" --source-maps inline",
-    "prepublish": "yarn run build",
     "test": "jest ./src",
     "package": "yarn build && cp package.json README.md LICENSE dist/ && rm dist/index.test.*",
-    "release": "yarn clean && yarn version && yarn package && npm publish dist/ --access public"
+    "release": "yarn clean && yarn version && yarn package && npm publish dist/ --access restricted"
   },
   "prettier": {
     "singleQuote": true,
