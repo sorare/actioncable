@@ -17,7 +17,7 @@ enum MessageType {
   Disconnect = 'disconnect',
 }
 
-export class ActionCable {
+export default class ActionCable {
   private url: string;
 
   private origin?: string;
