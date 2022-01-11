@@ -1,6 +1,6 @@
 {
   "name": "@sorare/actioncable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "WebSocket/ActionCable client for Sorare",
   "author": "Sorare",
   "license": "MIT",
