@@ -25,7 +25,7 @@ WebSocket/ActionCable client for Sorare.
 `npm install @sorare/actioncable --save`
 
 ```javascript
-const ActionCable = require('@sorare/actioncable');
+const { ActionCable } = require('@sorare/actioncable');
 
 const cable = new ActionCable({
   url: 'wss://ws.sorare.com/cable',

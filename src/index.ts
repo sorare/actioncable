@@ -17,7 +17,7 @@ enum MessageType {
   Disconnect = 'disconnect',
 }
 
-export default class ActionCable {
+export class ActionCable {
   private url: string;
 
   private origin?: string;
@@ -53,7 +53,7 @@ export default class ActionCable {
   subscribe(query: string, callbacks: Callbacks): Subscription {
     const identifier = JSON.stringify({
       channel: 'GraphqlChannel',
-      channelId: Math.random().toString(36).substring(2, 8),
+      channelId: Math.random().toString(36).substring(2, 8), // temporary
     });
 
     if (this.subscriptions[identifier]) {
