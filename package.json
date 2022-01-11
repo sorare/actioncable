@@ -1,6 +1,6 @@
 {
   "name": "@sorare/actioncable",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "WebSocket/ActionCable client for Sorare",
   "author": "Sorare",
   "license": "MIT",
@@ -41,8 +41,8 @@
     "build:types": "tsc --emitDeclarationOnly",
     "build:js": "babel src --out-dir dist --extensions \".js,.ts\" --source-maps inline",
     "test": "jest ./src",
-    "package": "yarn build && cp package.json README.md LICENSE dist/ && rm dist/index.test.*",
-    "release": "yarn clean && yarn version && yarn package && npm publish dist/ --access restricted"
+    "package": "yarn build && cp package.json README.md logo.png LICENSE dist/ && rm dist/index.test.*",
+    "release": "yarn clean && yarn version && yarn package && npm publish dist/ --access public"
   },
   "prettier": {
     "singleQuote": true,
