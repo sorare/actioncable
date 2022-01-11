@@ -9,7 +9,7 @@
     <img src='https://badges.aleen42.com/src/typescript.svg' />
   </a>
   <a href="https://www.npmjs.com/package/@sorare/actioncable">
-    <img src='https://img.shields.io/github/package-json/v/@sorare/actioncable?label=npm' />
+    <img src='https://img.shields.io/npm/v/@sorare/actioncable' />
   </a>
   <a href="https://github.com/sorare/actioncable/actions/workflows/node.js.yml">
     <img src='https://github.com/sorare/actioncable/actions/workflows/node.js.yml/badge.svg' />
